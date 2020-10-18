@@ -1,0 +1,78 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"app-plus": {"titleNView": false}
+			}
+		},
+		{
+				"path": "pages/firList/index",
+				"style": {
+					"app-plus": {"titleNView": false}
+				}
+			},
+			{
+			"path": "pages/voiceSend/index",
+			"style": {
+				"app-plus": {"titleNView": false}
+			}
+		},		
+		{
+		"path": "pages/mine/index",
+		"style": {
+			"app-plus": {"titleNView": false}
+		}
+	},
+	{
+		"path": "pages/mine/login",
+		"style": {
+			"app-plus": {"titleNView": false}
+		}
+	},
+	{
+		"path": "pages/mine/register",
+		"style": {
+			"app-plus": {"titleNView": false}
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color":"#AFCEA4",
+		"selectedColor":"#2B9939",
+		"borderStyle":"black",
+		"backgroundColor":"#FFFFFF",
+		"list": [
+			{
+				"pagePath":"pages/home/index",
+				"iconPath":"static/tabbar/home.png",
+				"selectedIconPath":"static/tabbar/home-active.png",
+				"text":"语音广场"
+			},
+			{
+				"pagePath":"pages/voiceSend/index",
+				"iconPath":"static/tabbar/voice.png",
+				"selectedIconPath":"static/tabbar/voice-active.png",
+				"text":"语音录制"
+			},
+			{
+				"pagePath":"pages/firList/index",
+				"iconPath":"static/tabbar/firend.png",
+				"selectedIconPath":"static/tabbar/firend-active.png",
+				"text":"好友列表"
+			},
+			{
+				"pagePath":"pages/mine/index",
+				"iconPath":"static/tabbar/mine.png",
+				"selectedIconPath":"static/tabbar/mine-active.png",
+				"text":"个人中心"
+			}
+		]
+	}
+}
